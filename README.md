@@ -10,6 +10,25 @@ Als Folgeanalyse (Teil 2):
 
 > **Welche Kantone/Regionen sind beim Mietanstieg Spitzenreiter, welche Nachzügler — und wo steht der Kanton Zürich?**
 
+## Einfach erklärt (für alle)
+
+**Worum geht es?** Mieten steigen – das spürt jede:r. Dieses Projekt prüft mit offiziellen Zahlen zwei Dinge: *Steigen die Mieten schneller als die Löhne?* und *In welchen Kantonen ist es am extremsten?*
+
+**Die kurze Antwort auf Frage 1:** Die Mieten sind im letzten Jahrzehnt gestiegen (rund +8 % zwischen 2010 und 2020) – aber die Löhne sind ungefähr gleich schnell mitgewachsen. Weil die allgemeinen Preise (die Teuerung) in dieser Zeit kaum stiegen, blieb am Ende des Monats real etwa gleich viel übrig. **Wichtig:** Diese Zahlen reichen nur bis 2020. Der starke Mietsprung ab 2022 ist hier noch nicht enthalten.
+
+**Die kurze Antwort auf Frage 2:** Es gibt ein klares Stadt-Land- bzw. Zentrums-Gefälle. Am teuersten wohnt man in Zug, **Zürich** und Genf, am günstigsten im Jura. Und die teuren Kantone wurden tendenziell noch teurer: Zürich gehört sowohl beim Preis-*Niveau* als auch beim *Anstieg* (2012–2024) zu den Top 3.
+
+**Kurz erklärt – die wichtigsten Begriffe:**
+
+| Begriff | Was es bedeutet |
+|---|---|
+| **Nominallohn** | Der Lohn in Franken, wie er auf dem Lohnzettel steht – ohne Berücksichtigung der Preise. |
+| **Reallohn** | Der Lohn umgerechnet auf die *Kaufkraft*: Wie viel man sich davon wirklich leisten kann. Steigt der Reallohn, sind die Löhne schneller gewachsen als die Preise. |
+| **Teuerung / Inflation** | Wie stark die Preise allgemein steigen (gemessen am Landesindex der Konsumentenpreise, LIK). |
+| **Mietpreisindex** | Eine Messzahl, die zeigt, wie sich die Mieten über die Zeit verändern – nicht der Preis in Franken, sondern relativ zu einem Startjahr (hier Dezember 2015 = 100). |
+| **Index (z. B. 2010 = 100)** | Ein Trick, um Dinge mit unterschiedlichen Einheiten vergleichbar zu machen: Man setzt ein Jahr auf 100 und misst alles andere daran. Bei 108 ist der Wert 8 % höher als im Startjahr. |
+| **Fr./m²** | Monatsmiete pro Quadratmeter. So lassen sich grosse und kleine Wohnungen fair vergleichen. |
+
 ## Erste Ergebnisse (Frage 1)
 
 ![Mieten, Löhne und Teuerung im Vergleich](figures/mieten_vs_loehne.png)
@@ -51,9 +70,9 @@ Als Folgeanalyse (Teil 2):
 
 | Datensatz | Quelle | Verwendung |
 |---|---|---|
-| Mietpreisindex (Entwicklung der Mietpreise für Wohnungen, Jahresdurchschnitte) | BFS – LIK | Mietentwicklung über die Zeit |
-| Landesindex der Konsumentenpreise (LIK / Teuerung) | BFS | Vergleich: allgemeine Teuerung |
-| Schweizerischer Lohnindex (SLI) | BFS | Vergleich: Lohnentwicklung |
+| Mietpreisindex (Entwicklung der Mietpreise für Wohnungen, Jahresdurchschnitte) | BFS – LIK | Frage 1: Mietentwicklung über die Zeit |
+| Nominallöhne, Konsumentenpreise und Reallöhne | BFS | Frage 1: Vergleich Löhne ↔ Teuerung (enthält Lohn- *und* Preisentwicklung in einer Datei) |
+| Durchschnittlicher Mietpreis pro m² nach Zimmerzahl und Kanton (2012–2022 + 2024) | BFS – Strukturerhebung | Frage 2: Mieten nach Kanton, Niveau und Anstieg |
 
 > Hinweis: Der Mietpreisindex ist ein Teilindex des LIK (Basis Dez. 2015 = 100), wodurch sich Miete und Teuerung direkt vergleichen lassen.
 
