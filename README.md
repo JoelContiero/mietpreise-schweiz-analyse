@@ -10,6 +10,16 @@ Als Folgeanalyse (Teil 2):
 
 > **Welche Kantone/Regionen sind beim Mietanstieg Spitzenreiter, welche Nachzügler — und wo steht der Kanton Zürich?**
 
+## Erste Ergebnisse (Frage 1)
+
+![Mieten, Löhne und Teuerung im Vergleich](figures/mieten_vs_loehne.png)
+
+- **Mieten 2010–2020: rund +8 %** — ein spürbarer, aber moderater Anstieg.
+- Die Mieten stiegen **leicht schneller als die Nominallöhne** (+8,2 % vs. +7,2 %).
+- **Trotzdem kein realer Kaufkraftverlust:** Die Reallöhne legten am stärksten zu (+8,7 %), weil die Teuerung im Jahrzehnt sehr tief war. Die Löhne hielten also mit den Mieten Schritt.
+
+> Datenstand bis 2020 (Grenze der Lohnreihe). Der starke Miet-/Preisanstieg ab 2022 ist noch nicht enthalten.
+
 ## Vorgehen
 
 1. **Daten beschaffen** — offene Datensätze von [opendata.swiss](https://opendata.swiss) / BFS
