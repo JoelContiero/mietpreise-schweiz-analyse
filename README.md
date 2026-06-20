@@ -67,7 +67,9 @@ Eine Datenanalyse mit Python (und Power BI) auf Basis offener Daten des Bundesam
 
 - Teuerste Kantone: **Zug (21,5), Zürich (21,3), Genf (21,1)** Fr./m²; günstigste: **Jura (12,3), Neuenburg (13,7), Appenzell A.Rh. (13,9)**.
 - **Zürich liegt auf Rang 2 von 26** und rund 20 % über dem Schweizer Schnitt (17,8 Fr./m²).
-- Kleine Wohnungen kosten pro m² am meisten (siehe Heatmap im Notebook).
+- Kleine Wohnungen kosten pro m² am meisten – sichtbar als Hell-zu-Dunkel-Verlauf von links (1 Zimmer) nach rechts in der Heatmap.
+
+![Miete pro m² nach Kanton und Zimmerzahl 2024](figures/miete_kanton_zimmer_heatmap_2024.png)
 
 ### Ergebnis — Entwicklung 2012–2024
 
