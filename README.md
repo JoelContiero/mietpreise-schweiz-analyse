@@ -1,6 +1,6 @@
 # Entwicklung der Wohnungsmieten in der Schweiz
 
-Eine Datenanalyse mit Python (und Power BI) auf Basis offener Daten des Bundesamts für Statistik (BFS). Untersucht werden zwei Forschungsfragen — jeweils nach dem Muster **Frage → Herleitung → Ergebnis**.
+Eine Datenanalyse mit Python (und Power BI) auf Basis offener Daten des Bundesamts für Statistik (BFS). Untersucht werden zwei Forschungsfragen**.
 
 ---
 
