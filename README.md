@@ -1,0 +1,46 @@
+# Entwicklung der Wohnungsmieten in der Schweiz
+
+Eine Datenanalyse mit Python und Power BI auf Basis offener Daten des Bundesamts für Statistik (BFS).
+
+## Leitfrage
+
+> **Wie stark sind die Wohnungsmieten in der Schweiz in den letzten 10–15 Jahren gestiegen — und hielt das mit der Lohn- und Teuerungsentwicklung Schritt?**
+
+Als Folgeanalyse (Teil 2):
+
+> **Welche Kantone/Regionen sind beim Mietanstieg Spitzenreiter, welche Nachzügler — und wo steht der Kanton Zürich?**
+
+## Vorgehen
+
+1. **Daten beschaffen** — offene Datensätze von [opendata.swiss](https://opendata.swiss) / BFS
+2. **Aufbereiten** — Bereinigung und Strukturierung mit Python/pandas (`notebooks/01_datenaufbereitung.ipynb`)
+3. **Analysieren** — explorative Auswertung und Visualisierung (`notebooks/02_analyse.ipynb`)
+4. **Präsentieren** — interaktives Dashboard in Power BI (`powerbi/`)
+
+## Datenquellen
+
+| Datensatz | Quelle | Verwendung |
+|---|---|---|
+| Mietpreisindex (Entwicklung der Mietpreise für Wohnungen, Jahresdurchschnitte) | BFS – LIK | Mietentwicklung über die Zeit |
+| Landesindex der Konsumentenpreise (LIK / Teuerung) | BFS | Vergleich: allgemeine Teuerung |
+| Schweizerischer Lohnindex (SLI) | BFS | Vergleich: Lohnentwicklung |
+
+> Hinweis: Der Mietpreisindex ist ein Teilindex des LIK (Basis Dez. 2015 = 100), wodurch sich Miete und Teuerung direkt vergleichen lassen.
+
+## Projektstruktur
+
+```
+data/
+  raw/          Rohdaten, unverändert wie heruntergeladen
+  processed/    bereinigte, analysefertige Daten
+notebooks/      Jupyter Notebooks (Aufbereitung + Analyse)
+powerbi/        Power-BI-Datei (.pbix) und Dashboard-Screenshots
+```
+
+## Verwendete Werkzeuge
+
+Python (pandas, matplotlib, seaborn), Jupyter, Power BI Desktop.
+
+---
+
+*Lernprojekt — entwickelt mit Unterstützung von Claude Code.*
