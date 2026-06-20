@@ -20,6 +20,26 @@ Als Folgeanalyse (Teil 2):
 
 > Datenstand bis 2020 (Grenze der Lohnreihe). Der starke Miet-/Preisanstieg ab 2022 ist noch nicht enthalten.
 
+## Ergebnisse Frage 2: Mieten nach Kanton
+
+**Niveau 2024 — wo steht Zürich?**
+
+![Mieten nach Kanton 2024](figures/miete_kanton_ranking_2024.png)
+
+- Teuerste Kantone: **Zug, Zürich, Genf** (~21 Fr./m²); günstigste: **Jura, Neuenburg, Appenzell A.Rh.**
+- **Zürich liegt auf Rang 2 von 26** und rund 20 % über dem Schweizer Schnitt (17,8 Fr./m²).
+- Kleine Wohnungen kosten pro m² am meisten (siehe Heatmap im Notebook).
+
+**Entwicklung 2012–2024 — wer ist am stärksten gestiegen?**
+
+![Anstieg nach Kanton](figures/miete_kanton_anstieg.png)
+
+- Schweizweit stiegen die Mieten pro m² um **rund +12 %**.
+- Am stärksten: **Glarus (+19,5 %), Basel-Stadt (+16,6 %), Zürich (+15,1 %)**; am wenigsten Appenzell A.Rh. (+6,9 %).
+- **Zürich ist sowohl im Niveau (Rang 2) als auch beim Anstieg (Rang 3) vorne** — teure Kantone wurden tendenziell noch teurer.
+
+> Datengrundlage: BFS-Strukturerhebung, durchschnittliche Nettomiete pro m². Die Jahres-Zeitreihe 2012–2022 stammt aus einer mehrblättrigen BFS-Tabelle, 2024 aus der aktuellen Einzeltabelle (2023 ist in den offenen Daten nicht enthalten).
+
 ## Vorgehen
 
 1. **Daten beschaffen** — offene Datensätze von [opendata.swiss](https://opendata.swiss) / BFS
